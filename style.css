@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+body {
+    background: black;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+#contain{
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+}
+.non-active{
+    display: none;
+}
+#app,
+#selection{
+    width: 100%;
+    height: 90vh;
+    background: black;
+    position: relative;
+    top: 20px;
+    overflow-y: auto;
+}
+#home{
+    width: 100%;
+    height: 65vh;
+    background-size: 360px;
+    background: black;
+}
+#head{
+    width: 100%;
+    height: 6vh;
+    background: black;
+    font-size: 35px;
+    color: darkred;
+}
+#homebtn,
+#aboutbtn,
+#skillsbtn,
+#contactbtn{
+  width: 90%;
+  height: 13vh;
+  background: black;
+  color: green;
+  border: 2px solid black;
+  position: relative;
+  left: 5%;
+  margin-top: 5vh;
+  font-size: 23px;
+  transition: 0.1s;
+}
+#selection button:hover{
+    color: red;
+}
+#show p{
+    position: relative;
+    margin-top: 0;
+    top: 0;
+    height: 0.000001px;
+    border: 2px solid gold;
+    font-size: 15px;
+    font-stretch: 30px;
+    color: green;
+}
+#show{
+    background-color: black;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    bottom: 10px;
+    left: 200px;
+    border: 2px solid black;
+    background-size: contain;
+    background-image: url("/images /menu.jpg")
+}
+#welcomes{
+    width: 90%;
+    color: white;
+    background: black;
+    position: relative;
+    top: 100px;
+    font-size: 25px;
+    left: 20px;
+}
+#name{
+    color: green;
+}
+#hire{
+    background: green;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    position: relative;
+    top: 130px;
+    border: 2px solid black;
+    left: 45px;
+}
+#cancelbtn{
+    width: 15%;
+    height: 7vh;
+    background: black;
+    position: relative;
+    left: 80%;
+    border: 2px solid black;
+}
+#what{
+    color: green;
+}
+#about{
+    background: white;
+    width: 100%;
+    height: 280vh;
+    color: black;
+}
+#abtme{
+    width: 40%;
+    position: relative;
+    left: 30%;
+    height: 50px;
+    background: black;
+    color: green;
+    top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+#content{
+    width: 70%;
+    border-radius: 20px;
+    height: 60vh;
+    position: relative;
+    left: 15%;
+    margin-top: 3vh;
+    background: black;
+    color: white;
+}
+#content p{
+    margin: 10px;
+}
+.intro{
+    font-size: 24px;
+}
+#skills{
+    background: black;
+    width: 100%;
+    height: 50vh;
+    color: red;
+}
+.start{
+    font-size: 30px;
+    position: relative;
+    left: 30%;
+    background: black;
+    width: 40%;
+    height: 50px;
+}
+.skills{
+    width: 100%;
+    height: 50vh;
+    background: black;
+}
+#cont{
+    width: 100%;
+    height: 2vh;
+    border-radius: 50px;
+    background: green;
+}
+#htline{
+    height: 2vh;
+    border-radius: 50px;
+    background: yellow;
+    width: 90%;
+}
+#csline{
+    height: 2vh;
+    border-radius: 50px;
+    width: 60%;
+    background: yellow;
+}
+#jsline{
+    height: 2vh;
+    width: 50%;
+    background: yellow;
+    border-radius: 50px;
+}
+#pyline{
+    height: 2vh;
+    width: 40%;
+    background: yellow;
+    border-radius: 50px;
+}
+#contact{
+    color: white;
+    width: 100%;
+    height: 160vh;
+}
+.mec{
+    width: 60%;
+    position: relative;
+    top: 10vh;
+    left: 25%;
+    font-size: 26px;
+    color: green;
+}
+#contact p{
+    margin-top: 60px;
+}
+#links{
+    width: 100%;
+    height: 40vh;
+    background: black;
+    position: relative;
+}
+#facebook,
+#whatsapp,
+#instagram,
+#twitter{
+    width: 100%;
+    height: 6vh;
+    border: 2px solid transparent;
+    color: purple;
+    background: black;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#contact input{
+    width: 85%;
+    height: 5vh;
+    margin: 10px;
+    position: relative;
+    left: 5%;
+}
+
+#contact input::placeholder{
+    color: red;
+}
+#contact textarea{
+    width: 85%;
+    position: relative;
+    left: 7%;
+    top: 5px;
+    height: 30vh;
+    border-radius: 7px;
+}
+#contact textarea::placeholder{
+    color: red;
+}
+#send{
+    background: green;
+    color: red;
+    border: 2px solid red;
+    width: 120px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    border-radius: 10px;
+}
+#moto{
+    background: red;
+    width: 100%;
+    height: 10vh;
+    color: green;
+    position: relative;
+    top: 90vh;
+}
+#moto p{
+    text-align: center;
+    margin-top: 0;
+}
